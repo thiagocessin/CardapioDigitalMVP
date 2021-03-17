@@ -1,10 +1,10 @@
-package com.fiap.cardapiodigitalmvp
+package com.fiap.cardapiodigitalmvp.controller
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
+import com.fiap.cardapiodigitalmvp.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,17 +17,20 @@ class MainActivity : AppCompatActivity() {
         val buttonSobremesas = findViewById<Button>(R.id.btnSobremesas);
 
         buttonPratosPrincipais.setOnClickListener{
-            val intent = Intent(this,PratosPrincipaisActivity::class.java);
+            val intent = Intent(this,
+                PratosPrincipaisActivity::class.java);
             startActivity(intent);
         }
 
         buttonBebidas.setOnClickListener{
-            val intent = Intent(this,BebidasActivity::class.java);
+            val intent = Intent(this,
+                BebidasActivity::class.java);
             startActivity(intent);
         }
 
         buttonSobremesas.setOnClickListener{
-            val intent = Intent(this,SobremesasActivity::class.java);
+            val intent = Intent(this,
+                SobremesasActivity::class.java);
             startActivity(intent);
         }
 

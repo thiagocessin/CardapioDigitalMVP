@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CardapioDigitalMVP">
-        <activity android:name=".SobremesasActivity"></activity>
-        <activity android:name=".BebidasActivity" />
-        <activity android:name=".PratosPrincipaisActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".ListaProdutosPersonalizados"></activity>
+        <activity android:name=".controller.SobremesasActivity" />
+        <activity android:name=".controller.BebidasActivity" />
+        <activity android:name=".controller.PratosPrincipaisActivity" />
+        <activity android:name=".controller.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
